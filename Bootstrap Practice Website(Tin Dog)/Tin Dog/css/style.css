@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Heading */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading{
+    font-weight: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.container-fluid {
+    padding: 2% 10%;
+    padding-bottom: 8%;
+}
+
+
+
+
+/* Navbar */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+/* download buttons */
+
+.btn-space {
+    margin: 2% 3%;
+}
+
+/* Image */
+
+.title-image img {
+    width: 15%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 25%;
+    z-index: -1;
+}
+
+
+
+/* Feature Section */
+#features {
+    padding: 2% 5%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.feature-text{
+    font-weight: 1rem;
+}
+
+
+/* Testimonials sections */
+
+#testimonials {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 2% 5%;
+}
+
+.testimonial-img {
+    width: 5%;
+    border-radius: 50%;
+    margin: 1% 2%;
+}
+
+.testimonial-text{
+    font-weight: 1.5rem;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#press img {
+    width: 15%;
+    margin: 0 3%;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 2% 5%;
+}
+
+.pricing-card {
+    margin: 1% 0;
+    text-align: center;
+}
+
+/* Call to Action Section */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 2% 5%;
+    color: white;
+}
+
+
+/* Footer */
+#footer{
+    padding: 2% 5%;
+    text-align: center;
+}
+
+/* Media Queries  */
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image img {
+        transform: rotate(0deg);
+        position: static;
+    }
+}
